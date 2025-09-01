@@ -23,7 +23,7 @@ steps:                   # Ordered list of steps inside the job
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip   # Upgrade pip to latest version
-          pip install -r requirements.txt       # Install project dependencies
+          pip install -r requirement.txt       # Install project dependencies
       #  Step 4: Run the ML training script
       - name: Run training script
         run: python train.py
